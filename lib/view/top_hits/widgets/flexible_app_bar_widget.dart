@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class FlexibleSpaceBarWidget extends StatelessWidget {
   const FlexibleSpaceBarWidget({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -24,8 +24,8 @@ class FlexibleSpaceBarWidget extends StatelessWidget {
             Text('Todays'.toUpperCase(), style: const TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.w700, fontStyle: FontStyle.normal, fontFamily: 'Inter')),
             Text('Top Hit'.toUpperCase(), style: const TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.w700, fontStyle: FontStyle.normal, fontFamily: 'Inter')),
             const SizedBox(height: 8,),
-            Row(
-              children: const [
+            const Row(
+              children: [
                 Icon(Icons.favorite, color: Colors.white54, size: 14,),
                 SizedBox(width: 4,),
                 Text('357,828 likes', style: TextStyle(color: Colors.white54, fontSize: 13)),

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class CustomTitle extends StatelessWidget {
   const CustomTitle({
-    Key? key, required this.title,
-  }) : super(key: key);
+    super.key, required this.title,
+  });
 
   final String title;
 

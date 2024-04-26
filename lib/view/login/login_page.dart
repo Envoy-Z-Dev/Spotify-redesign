@@ -161,8 +161,8 @@ class _LoginPageState extends State<LoginPage> {
 // ignore: must_be_immutable
 class Input extends StatelessWidget {
   Input({
-    Key? key, required this.hint, required this.icon,
-  }) : super(key: key);
+    super.key, required this.hint, required this.icon,
+  });
 
   String hint;
   IconData icon;

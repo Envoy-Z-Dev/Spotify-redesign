@@ -5,8 +5,8 @@ import 'package:spotify/view/top_hits/top_hits.dart';
 
 class TopMusic extends StatelessWidget {
   const TopMusic({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

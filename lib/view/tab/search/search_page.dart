@@ -48,10 +48,10 @@ class SearchPage extends StatelessWidget {
               const SizedBox(height: 12,),
               const CustomTitle(title: 'Browse all'),
               const SizedBox(height: 13,),
-              Wrap(
+              const Wrap(
                 spacing: 8,
                 runSpacing: 8,
-                children: const [
+                children: [
                   BrowseCard(
                     title: 'Made For You',
                     color1: '#E02FCF',

@@ -4,8 +4,8 @@ import 'package:spotify/data/data.dart';
 
 class Artist extends StatelessWidget {
   const Artist({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -3,8 +3,8 @@ import 'package:spotify/constants/colors.dart';
 
 class BrowseCard extends StatelessWidget {
   const BrowseCard({
-    Key? key, required this.title, required this.color1, required this.color2,
-  }) : super(key: key);
+    super.key, required this.title, required this.color1, required this.color2,
+  });
 
   final String title;
   final String color1;

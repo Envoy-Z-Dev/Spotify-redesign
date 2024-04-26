@@ -4,8 +4,8 @@ import 'package:spotify/data/data.dart';
 
 class WeeklyMusicList extends StatelessWidget {
   const WeeklyMusicList({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -3,8 +3,8 @@ import 'package:spotify/constants/colors.dart';
 
 class WeeklyTitle extends StatelessWidget {
   const WeeklyTitle({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

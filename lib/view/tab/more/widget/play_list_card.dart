@@ -4,8 +4,8 @@ import 'package:spotify/data/data.dart';
 
 class PlayListCard extends StatelessWidget {
   const PlayListCard({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -53,9 +53,9 @@ class PlayListCard extends StatelessWidget {
 
 class PlayListImage extends StatelessWidget {
   const PlayListImage({
-    Key? key,
+    super.key,
     required this.image,
-  }) : super(key: key);
+  });
 
   final String image;
 

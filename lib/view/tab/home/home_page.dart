@@ -19,9 +19,9 @@ class _HomePageState extends State<HomePage> {
     return SingleChildScrollView(
       child: Container(
         padding: const EdgeInsets.all(16),
-        child: Column(
+        child: const Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
+          children: [
             SizedBox(height: 54,),
             WelcomeTitle(title: 'Good Morning',),
             SizedBox(height: 32,),

@@ -3,8 +3,8 @@ import 'package:spotify/view/top_hits/widgets/flexible_app_bar_widget.dart';
 
 class SliverAppBarWidget extends StatelessWidget {
   const SliverAppBarWidget({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
