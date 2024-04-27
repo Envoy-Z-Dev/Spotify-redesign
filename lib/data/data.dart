@@ -12,7 +12,7 @@ final List<Map<String, dynamic>> slider = [
 final List<Map<String, dynamic>> topMixes = [
   {
     "title" : "Hip Hop Mix",
-    "description" : "Juice Wrld, Drake, Kendrick lamar and more... ",
+    "description" : "Juice Wrld, Drake, Kendrick Lamar and more... ",
     "image" : "assets/images/music1.png",
     "color" : "#EF0CAF"
   },
@@ -24,7 +24,7 @@ final List<Map<String, dynamic>> topMixes = [
   },
   {
     "title" : "House Mix",
-    "description" :  "Martin Garrix, The Chainsmoker and more...",
+    "description" :  "Martin Garrix, The Chainsmokers and more...",
     "image" : "assets/images/music3.png",
     "color" : "#1ED760"
   },
@@ -67,12 +67,11 @@ final List<Map<String, dynamic>> podCast = [
     "image" : "assets/images/tedTalk.png",
   },
   {
-    "title" : "Mom’s Basement",
+    "title" : "Mom's Basement",
     "description" : "75 ep.",
     "image" : "assets/images/momsBasement.png",
   },
 ];
-
 
 final List<Map<String, dynamic>> playList = [
   {
@@ -137,3 +136,93 @@ final List<Map<String, dynamic>> topHit = [
       'favorite': false,
     },
   ];
+
+final List<Map<String, dynamic>> newReleases = [
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'New Album Release',
+    'artist': 'Artist Name 1',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'New Single Release',
+    'artist': 'Artist Name 2',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'New EP Release',
+    'artist': 'Artist Name 3',
+  },
+];
+
+final List<Map<String, dynamic>> popularTracks = [
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Popular Track 1',
+    'artist': 'Artist Name 1',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Popular Track 2',
+    'artist': 'Artist Name 2',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Popular Track 3',
+    'artist': 'Artist Name 3',
+  },
+];
+
+final List<Map<String, dynamic>> recommendations = [
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Recommended Track 1',
+    'artist': 'Artist Name 1',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Recommended Track 2',
+    'artist': 'Artist Name 2',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Recommended Track 3',
+    'artist': 'Artist Name 3',
+  },
+];
+
+final List<Map<String, dynamic>> recentlyPlayed = [
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Recently Played 1',
+    'artist': 'Artist Name 1',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Recently Played 2',
+    'artist': 'Artist Name 2',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Recently Played 3',
+    'artist': 'Artist Name 3',
+  },
+];
+
+final List<Map<String, dynamic>> topCharts = [
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Top Song 1',
+    'artist': 'Artist Name 1',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Top Album 1',
+    'artist': 'Artist Name 2',
+  },
+  {
+    'image': 'assets/images/impaulsive.png',
+    'title': 'Top Artist 1',
+    'artist': 'Artist Name 3',
+  },
+];
